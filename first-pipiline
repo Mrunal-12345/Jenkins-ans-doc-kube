@@ -146,7 +146,7 @@ pipeline {
             steps {
                 sh 'docker build -t samplewebapp:${DOCKER_TAG} .'
                 sh 'docker tag samplewebapp mrunalthak/samplewebapp:${DOCKER_TAG}'
-                echo 'Image build and tag sucessful'
+                echo 'Image build and tag sucessfully'
             }
         }
         
